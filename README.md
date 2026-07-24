@@ -14,8 +14,6 @@ Skills are portable, installable behavior packages for [Claude Code](https://cla
 # Install from a local file
 claude skill install ./caveman.skill
 
-# Install directly from a URL
-claude skill install https://raw.githubusercontent.com/Ishan7390/10skills-video/main/caveman.skill
 ```
 
 ### How to Use a Skill
@@ -195,8 +193,8 @@ Behavioral guidelines that reduce the most common LLM coding mistakes, derived f
 
 ```bash
 # Clone this repo and install all skills
-git clone https://github.com/Ishan7390/10skills-video.git
-cd 10skills-video
+git clone https://github.com/khushiii0001/claude-skills.git
+cd claude-skills
 for f in *.skill; do claude skill install "./$f"; done
 ```
 
